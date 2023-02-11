@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.scss';
 
-function App() {
+const App = () => {
     return (
         <div className="app">
             <header className="app-header">
-                <img src={logo} className="app-logo" alt="logo" />
+                <img
+                    src={logo}
+                    className="app-logo"
+                    alt="logo"
+                />
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>
@@ -20,6 +24,6 @@ function App() {
             </header>
         </div>
     );
-}
+};
 
 export default App;
